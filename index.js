@@ -81,7 +81,7 @@ const copyResponse = (copyBtn) => {
 const showTypingAnimation = () => {
     const html = `<div class="chat-content">
                     <div class="chat-details">
-                        <img src="images/chatbot.jpg" alt="Bot-img">
+                        <img src="chatbot.jpg" alt="Bot-img">
                         <div class="typing-animation">
                             <div class="typing-dot" style="--delay: 0.2s"></div>
                             <div class="typing-dot" style="--delay: 0.3s"></div>
@@ -105,7 +105,7 @@ const handleOutgoingChat = () => {
 
     const html = `<div class="chat-content">
                     <div class="chat-details">
-                        <img src="images/user.webp" alt="User-img">
+                        <img src="user.webp" alt="User-img">
                         <p></p>
                     </div>
                 </div>`;
